@@ -1,0 +1,196 @@
+/*Color Palette:
+#354458 dark blue
+#3794D1 sky blue
+#28A8A1 blue green
+#E7DED4 pinkish white
+#EA715F peach */
+
+/*GENERAL STYLE*/
+
+/*Using vw instead of px makes the font size automatically adjust based on window width*/ 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+ul, ol, dl{
+  position: relative; 
+}
+h2{
+    margin: 0;     
+    padding-top: 90px;
+    font-size: 50px;
+    font-family: "Mission Gothic Black", sans-serif;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+.navbar-brand{
+    margin-top:-17px;
+}
+.main-img{
+    width: 100%;
+    position: relative;
+}
+
+/*INDEX*/
+.index-body {
+  background-color: #354458; /* dark blue */
+}
+.main-title{ /*will override some stuff for h2*/
+  font-size: 4.7vw;
+  font-family: "Mission Gothic Bold", sans-serif;
+  max-width: 80%;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  padding: 4px;
+  background-color: transparent;
+  color: #fff;
+
+  text-shadow:
+    /* Outline */
+    -0.5px -0.5px 0 #474747,
+    0.5px -0.5px 0 #474747,
+    -0.5px 0.5px 0 #474747,
+    0.5px 0.5px 0 #474747,  
+    -0.5px 0 0 #474747,
+    0.5px 0 0 #474747,
+    0 0.5px 0 #474747,
+    0 -0.5px 0 #474747;
+}
+
+/*ABOUT*/
+.about-body{
+    background-color: #fff;
+    text-align: justify;
+}
+.about-banner{
+    background-color: #E7DED4;
+}
+.about-header{
+    color: #354458;
+}
+.transparent-box{
+    position: absolute;
+    padding: 16px;
+    background-color: #f0ebe4;
+    opacity: 0.75;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    font-weight: bold;
+    font-size: 1.8vw;
+    text-align: center;
+}
+.info-section{
+    margin:0 auto;
+    padding-left:50px;
+    padding-right:50px;
+    width: 80%;
+    border: 3px solid #354458;
+}
+
+/*2016 SYMPOSIUM*/
+.symposium-body{
+    background-color:#fff;
+}
+.symposium-banner{
+    background-color:#354458;
+}
+.symposium-title{
+    color:#fff;
+}
+.white-h4{
+    color:#fff;
+}
+.info{
+    text-align: center;
+}
+.dividing-line{
+    margin: 0;
+    padding: 0;
+    background-color: #354458;
+    height: 3px;
+}
+
+/*OFFICERS*/
+.officers-title{
+    color:#fff;
+}
+.officers-banner{
+    background-color: #EA715F;
+}
+.container{
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+    width: 100%
+}
+.container img {
+  border-radius: 50%; /* makes image a circle */
+  width: 35%;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.subtitle{
+    font-size: 16px;
+}
+
+/*EVENTS*/
+.events-banner{
+    background-color: #28A8A1;
+}
+.events-title{
+    color:#fff;
+}
+
+/*LINKS AT BOTTOM*/
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    /*margin-top: 30px;*/
+}
+.welcome{
+    /*margin: 20px;*/
+}
+
+.light-text{
+    background-color: transparent;
+    color:#fff;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.light-link {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    color: #87cefa;
+}
+.light-link:hover{
+    text-decoration:none;
+    font-family: Helvetica, sans-serif;
+    color: #54b9f8;
+}
+
+.dark-text{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.dark-link {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+.dark-link:hover{
+    text-decoration:none;
+    font-family: Helvetica, sans-serif;
+}

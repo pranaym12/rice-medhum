@@ -1,0 +1,6 @@
+div.inline {
+  width: 50%;
+  padding: 10px 0;
+  display: inline;
+  float: left;
+}
