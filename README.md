@@ -19,7 +19,7 @@ Hit connect, and login in with your Rice NetID / Password (the same login you us
 Then you can just replace files with the updated ones. (Or, if you're feeling spicy, you can update the HTML right there - but make sure to update the changes in the Github!) 
 
 <h2>Setting up a VPN</h2>
-This will let you connect to Rice wifi remotely. Find the section that says VPN on <a href="https://kb.rice.edu/page.php?id=65468">this webpage</a>, click the link, and follow the instructions for your OS. Here are the instructions for <a href="https://idp.rice.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1">Mac</a>.
+This will let you connect to Rice wifi remotely. Find the section that says VPN on <a href="https://kb.rice.edu/page.php?id=65468">this webpage</a>, click the link, and follow the instructions for your OS. Here are the instructions for <a href="https://kb.rice.edu/internal/page.php?id=83592">Mac</a>.
 
 <h2>Updating officer photos</h2>
 Every line for the officer photos has something that says 'alt = "Adam Smith"' where there's somebody's name in place of Adam Smith. You can delete this part. I just let it be.
