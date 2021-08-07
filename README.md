@@ -3,7 +3,7 @@
 
 <h2>Updating MedHum Website:</h2>
 On Mac, open up Finder and hit Cmd+K to open a box that says "Open a server". Type in the following url and hit enter:
-storage.rice.edu/Student Activities/Public/www/medicalhumanities.rice.edu 
+http://storage.rice.edu/Student Activities/Public/www/medicalhumanities.rice.edu 
 
 
 On Windows, click the start button and in the text box type this URL and hit enter/return: 
@@ -12,7 +12,8 @@ On Windows, click the start button and in the text box type this URL and hit ent
 If that URL doesn't work, try 
 \\storage.rice.edu\Student Activities\Public\www\medicalhumanities.rice.edu 
 
-(You may or may not need to remove the double slashes at the beginning? Also I can't confirm if this works since I'm on Mac).
+You may or may not need to remove the double slashes at the beginning? Also I can't confirm if this works since I'm on Mac.
+You may also need to put http:// (or something like that) if you keep getting an error where it says "URLs with the type ':' are not supported".
 
 
 Hit connect, and login in with your Rice NetID / Password (the same login you use for Canvas). 
