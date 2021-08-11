@@ -2,28 +2,31 @@
 <a href="http://medhumclub.rice.edu">Website for Rice Medical Humanities Club</a>
 
 <h2>Updating MedHum Website:</h2>
-On Mac, open up Finder and hit Cmd+K to open a box that says "Open a server". Type in the following url and hit enter:
-http://storage.rice.edu/Student Activities/Public/www/medicalhumanities.rice.edu 
+This section is for what you should do if you have changes to the code that you want to reflect on the website (upload to the server). In order to do this, you must first be on campus connected to RiceOwls. If you're not connected to RiceOwls, go to the "Setting up a VPN" section below.
+
+
+If you're using a Mac, open up Finder and hit Cmd+K to open a box that says "Open a server". Type in the following url and hit enter:
+smb://storage.rice.edu/Student Activities/Public/www/medicalhumanities.rice.edu
 
 
 On Windows, click the start button and in the text box type this URL and hit enter/return: 
-\\file-rnas.rice.edu\static-web\medhumclub\www
+smb:\\storage.rice.edu\Student Activities\Public\www\medicalhumanities.rice.edu
 
-If that URL doesn't work, try 
-\\storage.rice.edu\Student Activities\Public\www\medicalhumanities.rice.edu 
 
-You may or may not need to remove the double slashes at the beginning? Also I can't confirm if this works since I'm on Mac.
-You may also need to put http:// (or something like that) if you keep getting an error where it says "URLs with the type ':' are not supported".
+If these URLs don't work on Mac or Windows, consider emailing the Office of Information Technology at helpdesk@help.rice.edu. Also, you can try the following URLs instead. (If on Windows, you may need to use backslashes instead of foreward slashes):
+http://storage.rice.edu/Student Activities/Public/www/medicalhumanities.rice.edu 
 
 
 Hit connect, and login in with your Rice NetID / Password (the same login you use for Canvas). 
 Then you can just replace files with the updated ones. (Or, if you're feeling spicy, you can update the HTML right there - but make sure to update the changes in the Github!) 
+
 
 <h2>Setting up a VPN</h2>
 This will let you connect to Rice wifi remotely. Find the section that says VPN on <a href="https://kb.rice.edu/page.php?id=65468">this webpage</a>, click the link, and follow the instructions for your OS. Here are the instructions for <a href="https://kb.rice.edu/internal/page.php?id=83592">Mac</a>.
 
 <h2>Updating officer photos</h2>
 Every line for the officer photos has something that says 'alt = "Adam Smith"' where there's somebody's name in place of Adam Smith. You can delete this part. I just let it be.
+
 
 Although in order to make the photos circle-y, you have to ensure that each of the photos has approximately the same height as width. You may need to crop the photos. If a photo is too tall, it'll render as a skinny oval on the website; and if photo is too wide, it'll render as fat oval.
 
